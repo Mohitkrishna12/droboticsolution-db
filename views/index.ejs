@@ -1,0 +1,400 @@
+<%- include("header.ejs") -%>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+  <div class="site-wrap"  id="home-section">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+   
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-md-3 col-xl-4  d-block">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0"><img src="images/logo.png" alt="imag"></a></h1>
+          </div>
+
+          <div class="col-12 col-md-9 col-xl-8 main-menu">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li class="has-children">
+                  <a href="#features-section" class="nav-link">Solutions</a>
+                  <ul class="dropdown arrow-top">
+                    <li><a href="dnest" class="nav-link">D-NEST</a></li>
+                    <li><a href="espion" class="nav-link">ESPION</a></li>
+                  </ul>
+                </li>
+                <li><a href="#about-section" class="nav-link">About Us</a></li>
+                  
+                <li><a href="#testimonials-section" class="nav-link">Awards</a></li>
+                
+               
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-6 col-md-9 d-inline-block d-lg-none ml-md-0" ><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
+    </header>
+    
+
+    <div class="site-blocks-cover" style="overflow: hidden;">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+          <div class="col-md-12" style="position: relative;" data-aos="fade-up" data-aos-delay="200">
+            
+            <img src="images/undraw_investing_7u74.svg" alt="Image" class="img-fluid img-absolute">
+
+            <div class="row mb-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="col-lg-6 mr-auto">
+                <h1>Improved production level with Robotics</h1>
+                <p class="mb-5">EVERYONE WANTS THE INNOVATION THROUGH ROBOTICS.</p>
+                
+                  
+                
+              </div>
+              
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>  
+
+
+    <div class="site-section" id="features-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center text-center"  data-aos="fade-up">
+          <div class="col-7 text-center  mb-5">
+            <h2 class="section-title">Our Solutions</h2>
+            
+          </div>
+        </div>
+        <div class="row mb-5 justify-content-center text-center">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                
+                <span class="icon-wrap"><span class="text-primary icon-store_mall_directory"></span></span>
+              </div>
+              <div>
+                <h3>D-NEST</h3>
+                <p>D-NEST is a fully autonomous drone station powered by IOT and Machine Learning. A drone hub which can house drones for continuous monitoring.</p>
+                <p><a href="dnest">Learn More</a></p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-power"></span></span>
+              </div>
+              <div>
+                <h3>ESPION</h3>
+                <p>A complete IOT hardware which can be expandable and customized for any need and it can be connected to any IOT software through their API.</p>
+                <p><a href="espion">Learn More</a></p>
+              </div>
+            </div>
+          
+
+
+          
+
+          
+         
+        </div>
+      </div>
+    </div>
+    
+   
+
+    <div class="site-section bg-light" id="about-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">About Us</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img src="images/undraw_bookmarks_r6up.svg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 ml-auto pl-lg-5">
+            <h2 class="text-black mb-4 h3 font-weight-bold">Our Story</h2>
+            <p class="mb-4">Founded in june 12,2018 by a group of young engineers. Who wanted to bring a change in the traditional inspection process in industries.Dro-botic solutions helps industries in various sectors (energy,warehouse management,infrastructure,transportation) by digitally transforming their key processes in monitoring, maintenance and inspection of their assests in remote locations.</p>
+            <h2 class="text-black mb-4 h3 font-weight-bold">Our Values</h2>
+            <p class="mb-4">We believe technology is the key for everyone to attain their full potential. We want to make industries attain their full potential through our solutions. Our goal is to work with customers with the same belief and to succeed together.</p>
+           
+           
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+
+
+    <div class="site-section testimonial-wrap bg-light" id="testimonials-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Awards</h2>
+          </div>
+        </div>
+      </div>
+      <div class="slide-one-item home-slider owl-carousel">
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/awards.png" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;Winner of EoDB Grand Challenge 2019 by Goverment of India.&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>Dro-Botic Solutions</strong></p>
+              
+
+              
+            </div>
+          </div>
+          <div>
+            <div class="testimonial">
+              
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/awards.png" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+
+              <blockquote class="mb-3">
+                <p>&ldquo;Best startup Award in Ventura'19 by NIT, Trichy, India.&rdquo;</p>
+              </blockquote>
+              
+              <p class="text-black"><strong>Dro-Botic Solutions</strong></p>
+              
+              
+            </div>
+          </div>
+
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/awards.png" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;Finalist in O&G@20 at Petrotech 2019 by ONGC.&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>Dro-Botic Solutions</strong></p>
+
+              
+            </div>
+           
+          </div>
+
+          
+
+        </div>
+    </div>
+
+    <div class="site-section" id="our-team-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center text-center"  data-aos="fade-up">
+          <div class="col-7 text-center  mb-5">
+            <h2 class="section-title">Founders</h2>
+            
+          </div>
+        </div>
+       
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 mb-4 text-center " data-aos="fade-up" data-aos-delay="100">
+            <div class="person">
+              <div class="bio-img">
+                <figure>
+                  <img src="images/ashwin1.png" alt="Image" class="img-fluid">
+                </figure>
+                <div class="social">
+                  <a href="https://www.linkedin.com/in/ashwinkumarraja-cofounder-droboticsolutions"><span class="icon-linkedin"></span></a>
+                  
+                </div>
+              </div>
+              <h2 class="text-black h1">Ashwin Kumar Raja</h2>
+              <span class="sub-title d-block mb-3">Chief Operator</span>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 text-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="person">
+              <div class="bio-img">
+                <figure>
+                  <img src="images/balaji.jpg" alt="Image" class="img-fluid">
+                </figure>
+                <div class="social">
+                  <a href="https://www.linkedin.com/in/balaji-k-a7468198"><span class="icon-linkedin"></span></a>
+                  
+                </div>
+              </div>
+              <h2 class="text-black h1">Balaji</h2>
+              <span class="sub-title d-block mb-3">Technical Lead Embedded</span>
+              
+              
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 mb-4 text-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="person">
+              <div class="bio-img">
+                <figure>
+                  <img src="images/josh.jpg" alt="Image" class="img-fluid">
+                </figure>
+                <div class="social">
+                  <a href="https://www.linkedin.com/in/caleb-josh-j-30a10514b"><span class="icon-linkedin"></span></a>
+                  
+                </div>
+              </div>
+              <h2 class="text-black h1">Caleb Josh</h2>
+              <span class="sub-title d-block mb-3">Managing Director</span>
+              
+            </div>
+          </div>
+
+         
+
+          
+          
+        </div>
+      </div>
+    </div>
+    <div class="site-section bg-image2 overlay" id="contact-section" style="background-image: url('images/hero_1.jpg');">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-12 text-center">
+                <h2 class="section-title mb-3 text-white">Contact Us</h2>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-lg-7 mb-5">
+                
+                <form action="/" method="post" class="p-5 bg-white" >
+                  
+                  <h2 class="h4 text-black mb-5">Contact Form</h2>
+                  <div class="row form-group">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                      <label class="text-black" for="fname">First Name</label>
+                      <input type="text"  class="form-control rounded-0" name="fname" required="">
+                    </div>
+                    <div class="col-md-6">
+                      <label class="text-black" for="lname">Last Name</label>
+                      <input type="text"  class="form-control rounded-0" name="lname" required="">
+                    </div>
+                  </div>
+                  <div class="row form-group">
+                    
+                    <div class="col-md-12">
+                      <label class="text-black" for="email">Email</label>
+                      <input type="email"  class="form-control rounded-0" name="email" required="">
+                    </div>
+                  </div>
+                  <div class="row form-group">
+                    
+                    <div class="col-md-12">
+                      <label class="text-black" for="subject">Subject</label>
+                      <input type="text"  class="form-control rounded-0" name="subject">
+                    </div>
+                  </div>
+                  <div class="row form-group">
+                    <div class="col-md-12">
+                      <label class="text-black" for="message">Message</label>
+                      <textarea name="message" cols="30" rows="7" class="form-control rounded-0" placeholder="Leave your message here..."></textarea>
+                    </div>
+                  </div>
+                  <div class="row form-group">
+                    <div class="col-md-12">
+                      <input type="submit" value="Send Message" class="btn btn-primary mr-2 mb-2">
+                      
+                    </div>
+                  </div>
+                  
+                </form>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+    
+   
+
+    <div class="footer py-5 text-center">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12">
+            <p class="mb-0">
+              
+              <a href="https://www.linkedin.com/company/14531099" class="p-3"><span class="icon-linkedin"></span></a>
+              
+            </p>
+
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 text-center">
+           <h2 class="section-title">Contact</h2><br>
+
+           <p class="mb-4">9/17 Bhavani nagar, 4th main road,<br>Pozhichalur, chennai-74<br> ph:7871652561 / 7824018381<br><a class="btn-e" href="mailto:info@droboticsolutions.com">info@droboticsolutions.com</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="mb-0">
+            
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved by  <a href="#" target="_blank" >Dro-Botic Solutions</a>
+           
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+
+  
+  <script src="js/main.js"></script>
+  
+  </body>
+</html>

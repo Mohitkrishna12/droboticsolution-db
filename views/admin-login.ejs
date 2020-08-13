@@ -1,0 +1,41 @@
+<%- include("header.ejs") -%>
+<body >
+  <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+    <div class="container">
+      <div class="row align-items-center">
+        
+        <div class="col-6 col-md-3 col-xl-4  d-block">
+          <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0"><img src="images/logo.png" alt="imag"></a></h1>
+        </div>
+        
+        
+      </div>
+    </div>
+    
+  </header>
+  <h1 class="text-c" style="padding: 130px 0 50px 0">Sign in</h1>
+  <div class="sign-in">
+  <div class="card text-center" >
+  
+  <div class="card-body"  >
+    
+ 
+  <form action="/admin-login" method="post">
+  <div class="form-group" align="left">
+    <label >Email address</label>
+    <input type="email" name="email" class="form-control" style="background-color: #eeeeee;"  >
+    
+  </div>
+  <div class="form-group" align="left">
+    <label >Password</label>
+    <input type="password" name="password" class="form-control" style="background-color: #eeeeee;" >
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+ </div>
+</div>
+</div>
+  
+</body>
+</html>
