@@ -7,7 +7,7 @@ const ejs=require("ejs");
 const md5=require("md5");
 
 
-mongoose.connect("mongodb://localhost:27017/formdb",{useNewUrlParser:true,useUnifiedTopology:true});
+mongoose.connect("mongodb+srv://admin-login:process.env.PASS@cluster0.fdebt.mongodb.net/formdb",{useNewUrlParser:true,useUnifiedTopology:true});
 
 
 const app=express();
