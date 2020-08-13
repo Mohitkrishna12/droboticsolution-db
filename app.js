@@ -98,7 +98,7 @@ User.findOne({email:username},function(err,foundUser){
 		if(foundUser.password===passd){
 			
 			Client.find({},function(err,founduser){
-			console.log(founduser)
+			
 
 			res.render("forms",{formname:founduser});
 
@@ -150,7 +150,7 @@ app.post("/",function(req,res){
 	});
 
 	clientx.save();
-	console.log(clientx);
+	
 	res.redirect("/contact");
 })
 
